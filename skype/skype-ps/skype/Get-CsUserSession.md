@@ -27,7 +27,7 @@ To return a list of all the Role-Based Access Control (RBAC) roles a cmdlet has 
 
 ### -------------------------- Example 1 -------------------------- 
 ```
-Get-CsUserSession -User "Ken.Myer@Contoso.com" -StartDate "02/22/2016 07:30:15 PM"
+Get-CsUserSession -User "Ken.Myer@Contoso.com" -StartTime "02/22/2016 07:30:15 PM"
 ```
 
 This example returns user session information for Ken Myer from "02/22/2016 07:30:15 PM" to the current date.
